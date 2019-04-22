@@ -4,14 +4,14 @@
  *  be drawn and animated.                                                     *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-package intothedwarfness.Classes;
+
 
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JFrame;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import intothedwarfness.Classes.States.GameStateManager;
+
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.util.ArrayList;
@@ -38,11 +38,11 @@ public class Window  extends JFrame  implements  KeyListener {
         //Records this in the list of events to be passed
         this.addKeyListener(this);
         
-        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("images\\Dwarf_01.png"));
-        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("images\\Dwarf_02.png"));
-        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("images\\Dwarf_03.png"));
-        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("images\\Dwarf_04.png"));
-        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("images\\Dwarf_05.png"));
+        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("Dwarf_01.png"));
+        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("Dwarf_02.png"));
+        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("Dwarf_03.png"));
+        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("Dwarf_04.png"));
+        this.AnimationList.add(Toolkit.getDefaultToolkit().getImage("Dwarf_05.png"));
     }
     
     /*---------------------------- Methods -----------------------------------*/

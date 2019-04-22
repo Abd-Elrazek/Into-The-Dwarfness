@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package intothedwarfness.Classes;
 
-/**
- *
- * @author T-Gamer
- */
-public class Character {
-    
+
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.util.ArrayList;
+
+public interface Drawable {
+    public void Animation();
 }

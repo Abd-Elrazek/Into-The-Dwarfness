@@ -3,17 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package intothedwarfness.Classes.States;
-
+ 
+import java.awt.Color;
 import java.awt.Graphics;
 
 /**
  *
  * @author mathe
  */
-public abstract class GameState {
+public class PlayState extends GameState {
+
+    @Override
+    public void init() {}
+
+    @Override
+    public void tick() {}
+
+    @Override
+    public void render(Graphics g) {
+    }
     
-    public abstract void init();
-    public abstract void tick();
-    public abstract void render(Graphics g);
 }
