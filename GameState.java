@@ -5,11 +5,16 @@
  */
 
 
+import java.awt.Graphics;
 
 /**
  *
- * @author T-Gamer
+ * @author mathe
  */
-public class Character {
+public abstract class GameState 
+{
     
+    public abstract void init();
+    public abstract void tick();
+    public abstract void render(Graphics g);
 }

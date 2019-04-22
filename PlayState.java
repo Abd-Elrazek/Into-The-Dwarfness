@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
- 
+
+
 import java.awt.Color;
 import java.awt.Graphics;
 
@@ -14,13 +15,18 @@ import java.awt.Graphics;
 public class PlayState extends GameState {
 
     @Override
-    public void init() {}
+    public void init() {
+    }
 
     @Override
     public void tick() {}
 
     @Override
-    public void render(Graphics g) {
+    public void render(Graphics g) 
+    {
+        System.out.println("Initialize");
+        g.setColor(Color.RED);
+        g.drawString("Playing", 20, 20);
     }
     
 }
